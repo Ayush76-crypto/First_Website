@@ -1,0 +1,191 @@
+
+        .background-image {
+            position: absolute;
+            background-size: cover;
+            opacity: 0.4;
+            z-index: -1;
+            background-position: center;
+            margin-top: -18px;
+    
+        }
+        a:hover
+        {
+            background-color: #fff;
+            color: #333;
+        }
+        body {
+            padding: 0;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #333;
+        }
+
+        #main-content {
+            color: #fff;
+            text-align: center;
+        }
+
+        #top-section {
+            text-align: center;
+        }
+
+        #main-content h1 {
+            padding-top: 100px;
+        }
+
+        .read-button {
+            color: #fff;
+            text-decoration: none;
+            border: 1px solid #666;
+            display: inline-block;
+            padding: 18px;
+            margin: 4px 0;
+        }
+        
+        main{
+            display: block;
+            text-align: center;
+        }
+        #top-box
+        {
+            height: 450px;
+        }
+        #section-a
+        {
+            background-color:#eaeaea;
+            color: #333;
+            padding-top:20px;
+            padding-right: 200px;
+            padding-left: 200px;
+            padding-bottom:60px;
+        }
+        #section-a .content-text {
+           columns: 2;
+           column-gap: 6em;
+        }
+        .card
+        {
+            background-color: #fff;
+            color: #333;
+            display: block;
+            width : 300px;
+            padding-bottom: 15px;
+            margin-left: 80px;
+            margin-right:100px;
+            margin-top:20px;
+        }
+        .card-content
+        {
+            padding-left:15px;
+            padding-top:5px;
+            padding-right:15px;
+        }
+        .weight
+        {
+            font-weight:28px;
+        }
+        #sect-b ul
+        {
+            display: flex;
+            list-style-type: none;
+        }
+        #section-c
+        {
+            background-color: #fff;
+            color: #333;
+            padding:15px;
+        }
+        .content-title
+        {
+            font-weight: bold;
+            padding-bottom: 16px;
+            
+        }
+        .content-title1
+        {
+            font-weight: bold;
+            padding-bottom: 16px;
+            color: #fff;
+            
+        }
+        .content-para
+        {
+            padding-left: 230px;
+            padding-right: 230px;
+            padding-bottom: 30px;
+            font-size: 18px;
+            font-display: Arial;
+            font-style: oblique;
+        }
+        .box
+        {
+            background-color: #2690d4;
+            padding-top:15px;
+            padding-right:80px;
+            padding-left:80px;
+            font-size: 21px;
+            width:570px;
+            height:300px;
+            position: relative;
+            left:-339px;
+            z-index: 1;
+        }
+        .box2
+        {
+            background-color:#333;
+            padding-top:2pxpx;
+            padding-right:10px;
+            padding-left:80px;
+            font-size: 21px;
+            padding-bottom: 15px;
+            width:750px;
+            height:300px;
+            position: relative;
+            right: -350px;
+            top: -294px;
+        }
+        .grid {
+            display: inline-block;
+            grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
+            grid-column: span 2;
+            height:max-content;
+            grid-auto-rows: 1fr;
+        }
+        
+        #section-d
+        {
+            margin-bottom: 20px;
+        }
+        .bottom-para
+        {
+            color: #fff;
+        }
+        #footer
+        {
+            background-color:#000;
+            color: #fff;
+            text-align: center;
+            padding-top: 40px;
+            padding-bottom: 40px;
+            width:100%;
+            position: relative;
+        }
+        #footer a {
+           color: #2690d4;
+           text-decoration: none;
+           overflow: auto;
+        }
+        .down-head
+        {
+            position: relative;
+            left: -500px;
+            bottom:-11px;
+            font-size: 18px;
+        }
+        .down-head2
+        {
+            position: relative;
+            right: -450px;
+            top:-11px;
+            font-size: 18px;
+        }
